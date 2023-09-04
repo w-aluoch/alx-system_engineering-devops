@@ -1,2 +1,2 @@
 #!/bin/bash
-adm cdrom sudo dip plugdev lpadmin sambashare
+libuser-lid
