@@ -1,2 +1,2 @@
 #!/bin/bash
-ge N-Mn-m A-MN-Za-Mn-ztr A-Za-z N-ZA-Mn-Za-m
+tr echo {a..Z} |tr -d ''
