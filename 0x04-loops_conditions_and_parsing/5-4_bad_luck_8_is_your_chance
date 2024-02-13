@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#Display Best School 10 times
+i=1
+While ["$i" -le 10 ]
+do
+	if [ "$1" -eq 4 ]
+	then
+		echo "bad luck"
+	elif  [ "$1" -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	i=$(( i + 1 ))
+done
+
