@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Display Best School 10 times
 i=1
-While [ "$i" -le 10 ]
+while [ "$i" -le 10 ]
 do
 	if [ "$1" -eq 9 ]
 	then
