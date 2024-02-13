@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Displays numbers from 1 tp 100
+#Displays numbers from 1 to 100
 for i in {1..100}
 do
 	if [ $((i % 5)) -eq 0 ] && [ $((i % 3)) -eq 0 ]
