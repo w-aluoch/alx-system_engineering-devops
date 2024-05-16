@@ -1,4 +1,4 @@
-# fixing requests limit at ngix
+# fix request limit at ngix
 
 exec { 'fix--for-nginx':
 	command => 'sed -i "s/15/4096/" /etc/default/nginx',
